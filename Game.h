@@ -1,8 +1,8 @@
 #ifndef GAME_CLASS_H
 #define GAME_CLASS_H
 
-#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <./glad/glad.h>
 
 enum GameState {
     GAME_ACTIVE,
