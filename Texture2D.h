@@ -1,14 +1,12 @@
 #ifndef TEXTURE2D_CLASS_H
 #define TEXTURE2D_CLASS_H
-
-#include <./glad/glad.h>
-
+#include <glad/glad.h>
 class Texture2D {
 
     public:
         unsigned int ID;
         unsigned int Width, Height;
-        unsigned int Interal_Format;
+        unsigned int Internal_Format;
         unsigned int Image_Format;
         unsigned int Wrap_S;
         unsigned int Wrap_T;
